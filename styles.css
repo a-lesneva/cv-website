@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: 'Aleo';
+    font-size: 22px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: auto;
+}
+
+#website-content > .container {
+    padding-top: 40px;
+}
+
+.nav-bar {
+    overflow: hidden;
+    background-color:white;
+    position: fixed;
+    top: 0;
+    width: 900px;
+    height: 60px;
+}
+
+.nav-bar > a {
+    float: right;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.nav-bar > a:visited {
+    color: black;
+}
+
+.nav-bar > a:hover {
+    color:gray;
+}
+#website-content {
+    padding: 20px;
+}
+
+/* About section */
+#about-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-img {
+    padding-right: 20px;
+}
+
+/* Experience section */
+.experience-list > .container {
+    display: flex;
+    flex-direction: column;
+}
